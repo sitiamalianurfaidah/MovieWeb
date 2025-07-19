@@ -1,5 +1,6 @@
 import MovieCard from "@/components/MovieCard";
 import movies from "@/data/movies";
+import { useState } from "react";
 
 export default function Home() {
   return (

@@ -3,7 +3,7 @@ import Tag from "./Tag"
 
 const MovieCard = ({ id, title, year, poster, description, tags }) => {
     return (
-        <Link href={`/movies/${id}`}>
+        <Link href={`/movies/${id}`} className="block">
         <div className="bg-white shadow-md rounded-md overflow-hidden hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img src={poster} alt={title} className="w-full h-64 object-cover" />
             <div className="p-4">

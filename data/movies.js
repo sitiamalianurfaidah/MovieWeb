@@ -1,6 +1,6 @@
 const movies = [
     {
-        id: "sore",
+        id: 1,
         title: "Sore: Istri dari Masa Depan",
         year: 2025,
         poster: "/sore.jpg",
@@ -11,7 +11,7 @@ const movies = [
         tags: ["Drama", "Romantis"],
     },
     {
-        id: "sakatupo",
+        id: 2,
         title: "1 Kakak 7 Ponakan",
         year: 2025,
         poster: "/sakatupo.jpg",
@@ -22,7 +22,7 @@ const movies = [
         tags: ["Drama", "Keluarga"],
     },
     {
-        id: "jesedef",
+        id: 3,
         title: "Jatuh Cinta Seperti di Film-Film",
         year: 2023,
         poster: "/jesedef.jpeg",
@@ -33,7 +33,7 @@ const movies = [
         tags: ["Drama", "Romantis", "Komedi"],
     },
     {
-        id: "yhdc",
+        id: 4,
         title: "Yang Hilang Dalam Cinta",
         year: 2022,
         poster: "/yhdc.webp",
@@ -44,7 +44,7 @@ const movies = [
         tags: ["Drama", "Romantis", "Fantasi"],
     },
     {
-        id: "ptsm",
+        id: 5,
         title: "Perjalanan Terbaik Sepanjang Masa",
         year: 2022,
         poster: "/ptsm.jpg",
@@ -55,7 +55,7 @@ const movies = [
         tags: ["Drama"],
     },
     {
-        id: "10m",
+        id: 6,
         title: "Sepuluh Meter",
         year: 2020,
         poster: "/10m.webp",
@@ -66,7 +66,7 @@ const movies = [
         tags: ["Drama"],
     },
     {
-        id: "cemara",
+        id: 7,
         title: "Keluarga Cemara",
         year: 2018,
         poster: "/cemara.jpeg",
@@ -77,7 +77,7 @@ const movies = [
         tags: ["Drama", "Keluarga"],
     },
     {
-        id: "mcd3e",
+        id: 8,
         title: "Mengakhiri Cinta Dalam 3 Episode",
         year: 2018,
         poster: "/mcd3e.jpg",
@@ -88,7 +88,7 @@ const movies = [
         tags: ["Drama", "Fantasi"],
     },
     {
-        id: "sore-web",
+        id: 9,
         title: "Sore Web Series",
         year: 2017,
         poster: "/sore-web.webp",
@@ -99,7 +99,7 @@ const movies = [
         tags: ["Drama", "Romantis"],
     },
     {
-        id: "wanan",
+        id: 10,
         title: "Wan an",
         year: 2012,
         poster: "/wanan.jpeg",
