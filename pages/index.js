@@ -3,6 +3,7 @@ import movies from "@/data/movies";
 import Filter from "@/components/Filter";
 import MovieList from "@/components/MovieList";
 import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   const [selectedTag, setSelectedTag] = useState(null);
@@ -15,7 +16,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-100">
-      <HeroSection />      
+      <HeroSection />   
+      <AboutSection />   
       <section id="movielist" className="p-6">
         <h2 className="text-3xl font-bold mb-6">Cerita Films</h2>
         <Filter

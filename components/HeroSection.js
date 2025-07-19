@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { Cinzel } from "next/font/google";
+
+const cinzel = Cinzel({ subsets: ["latin"], weight: "700" });
 
 const HeroSection = () => {
     return (
@@ -16,8 +19,9 @@ const HeroSection = () => {
 
         {/* Overlay konten */}
         <div className="hero-overlay text-white text-center px-4">
-            <h1 className="text-6xl md:text-7xl font-extrabold mb-6 leading-tight animate-title">
+            <h1 className={`${cinzel.className} text-7xl md:text-8xl font-extrabold mb-3 leading-tight animate-title`}>
             <span className="inline-block mr-2 text-white-300 animate-word">Cerita</span>
+            <span className="inline-block mr-2 text-white-300 animate-word">       </span>
             <span className="inline-block text-white-300 animate-word delay-200">Films</span>
             </h1>
             <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-2xl mx-auto">

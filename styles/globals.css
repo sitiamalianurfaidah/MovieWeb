@@ -29,9 +29,9 @@ body {
 .hero-overlay {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.2) 0%,
-    rgba(0, 0, 0, 0.5) 50%,
-    var(--bg-color, #f8cca0) 100%  /* fallback warna default kalau variabel belum didefinisikan */
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(236, 211, 172, 0.5) 75%,
+    var(--bg-color, #d19484) 100%  /* fallback warna default kalau variabel belum didefinisikan */
   );
   width: 100%;
   height: 100%;
