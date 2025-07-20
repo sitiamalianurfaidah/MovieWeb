@@ -3,9 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Cinzel, Poppins } from "next/font/google";
-
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600"] });
+import { Cinzel } from "next/font/google";
 
 const cinzel = Cinzel({ subsets: ["latin"], weight: "700" });
 
@@ -57,9 +55,15 @@ export default function Header() {
                     <NavLink href="#testimonials" label="Reviews" scrollId="testimonials" />
                     <Link
                         href="/favorites"
-                        className="px-2 py-1 transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm hover:rounded-md"
+                        className="nav-btn"
                     >
                         Favorites
+                    </Link>
+                    <Link
+                        href="/merch"
+                        className="nav-btn"
+                    >
+                        Merchandise
                     </Link>
                 </nav>
             </div>

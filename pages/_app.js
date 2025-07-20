@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import "@/styles/globals.css";
 import { FavoritesProvider } from "@/contexts/FavoritesContext"; // Import context-nya
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -8,6 +9,7 @@ export default function App({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Footer />
     </FavoritesProvider>
   );
 }

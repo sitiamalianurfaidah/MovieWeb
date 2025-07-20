@@ -13,7 +13,6 @@ export default function Home() {
       <FeaturedFilms />
       <FilteredMovieList />
       <Testimonials />
-      <Footer />
     </main>
   );
 }

@@ -34,7 +34,7 @@ function convertToEmbed(url) {
 
     return (
         <div
-        className="min-h-screen relative text-white mt-16 px-6 md:px-40 py-12"
+        className="min-h-screen relative text-white mt-16 px-6 md:px-40 py-12 pb-15"
         style={{
             background: "linear-gradient(to bottom, #d19484, #e8ad9a, #a4929f)",
         }}
@@ -69,6 +69,17 @@ function convertToEmbed(url) {
                 <Tag key={tag} label={tag} />
                 ))}
             </div>
+                {movie.actors && (
+                <div className={`${poppins.className} text-sm md:text-base text-gray-200`}>
+                    <strong>Starring:</strong> {movie.actors.join(", ")}
+                </div>
+                )}
+
+                {movie.rating && (
+                <div className={`${poppins.className} text-sm md:text-base text-gray-200`}>
+                    <strong>Rating:</strong> ⭐ {movie.rating}/5
+                </div>
+                )}
             </div>
         </div>
 
