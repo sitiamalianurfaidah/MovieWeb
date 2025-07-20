@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Cinzel } from "next/font/google";
+import { Cinzel, Poppins } from "next/font/google";
+
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600"] });
 
 const cinzel = Cinzel({ subsets: ["latin"], weight: "700" });
 
@@ -26,7 +28,7 @@ export default function Header() {
     // Jika di halaman favorites, hanya tampilkan tombol back
     if (pathname === "/favorites") {
         return (
-            <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/80 text-white">
+            <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/70 text-white">
                 <div className="max-w-7xl mx-auto px-4 py-4">
                     <Link
                         href="/"
@@ -41,13 +43,13 @@ export default function Header() {
 
     // Tampilan navbar normal
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/80 text-white">
-            <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+        <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/90 text-white">
+            <div className="max-w-7xl mx-auto flex items-center justify-between px-10 py-5">
                 <h1 className={`${cinzel.className} text-2xl font-bold tracking-wide`}>
                     Cerita Films
                 </h1>
 
-                <nav className="flex flex-wrap justify-center gap-4 text-sm md:text-base">
+                <nav className="{${poppins.className} flex flex-wrap justify-center gap-4 text-sm md:text-base">
                     <NavLink href="/#hero" label="Home" />
                     <NavLink href="#about" label="About" scrollId="about" />
                     <NavLink href="#featured" label="Featured" scrollId="featured" />

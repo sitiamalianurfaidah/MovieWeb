@@ -1,13 +1,14 @@
 import Image from "next/image";
-import { Cinzel } from "next/font/google";
+import { Cinzel, Poppins } from "next/font/google";
 
 const cinzel = Cinzel({ subsets: ["latin"], weight: "700" });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600"] });
 
 const Hero = () => {
     return (
         <section
             id="hero"
-            className="relative w-full h-[100vh] flex items-center justify-center text-white overflow-hidden"
+            className="relative w-full h-[100vh] flex items-center justify-center mt-18 text-white overflow-hidden"
         >
             <Image
                 src="/hero.jpg"
@@ -18,25 +19,28 @@ const Hero = () => {
             />
 
             <div className="hero-overlay text-white text-center px-4 z-10">
+                {/* Judul Animasi */}
                 <h1
-                    className={`${cinzel.className} text-7xl md:text-8xl font-extrabold mb-3 leading-tight animate-title`}
+                    className={`${cinzel.className} text-7xl md:text-8xl font-extrabold mt-0 mb-2 leading-tight animate-title text-shadow`}
                 >
-                    <span className="inline-block mr-2 text-white animate-word">Cerita</span>
-                    <span className="inline-block text-white animate-word delay-200">Films</span>
+                    <span className="inline-block mr-3 animate-slide-left">Cerita</span>
+                    <span className="inline-block animate-slide-right">Films</span>
                 </h1>
 
-                <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-2xl mx-auto">
-                    Saksikan <span className="font-bold">SORE: Istri dari Masa Depan</span>, film terbaru dari Cerita Films. 
-                    Penuh makna, cinta, dan waktu yang tak terduga.
+                {/* Deskripsi muncul setelah judul */}
+                <p className={`${poppins.className} text-lg md:text-xl mb-8 text-gray-100 max-w-2xl mx-auto animate-fade-in`}>
+                    Watch <span className="font-semibold">SORE: Istri dari Masa Depan</span>, the film from Cerita Films. <br />
+                    A story full of meaning, love, and the unexpected passage of time.
                 </p>
 
+                {/* Tombol lebih besar dan muncul terakhir */}
                 <a
                     href="https://www.tix.id/movie/sore-istri-dari-masa-depan/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-orange-300 hover:bg-orange-500 text-white px-6 py-3 rounded-md transition"
+                    className={`${poppins.className} bg-[#3b1e47] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#5a2e68] transition-all duration-300 animate-fade-in-late`}
                 >
-                    Tonton Sekarang
+                    Watch Now
                 </a>
             </div>
         </section>

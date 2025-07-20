@@ -30,7 +30,7 @@ const movies = [
         description:
         "Jatuh Cinta Seperti di Film-Film merupakan film yang disutradarai dan ditulis oleh Yandy Laurens yang bergenre drama-romantis. Cerita berfokus pada Bagus, seorang penulis skenario yang tanpa sengaja bertemu kembali dengan Hana, teman sekaligus cinta masa SMA-nya.",
         trailer: "https://youtu.be/F6jPobzz-ag?si=WtRbFnZArLm1GznN",
-        tags: ["Drama", "Romantis", "Komedi"],
+        tags: ["Drama", "Romantis"],
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const movies = [
         description:
         "Yang Hilang Dalam Cinta merupakan series yang ditulis serta disutradarai oleh Yandy Laurens. Series ini memiliki 12 episode yang berkisah tentang Satria, yang harus menyaksikan kenyataan pahit saat cinta pertamanya, Dara, akan menikah dengan pria lain bernama Rendra. Namun segalanya berubah ketika Dara tiba-tiba menghilang secara misterius dan hanya Satria yang masih bisa melihat dan menyentuhnya.",
         trailer: "https://youtu.be/H2PsUxmTeKA?si=-Oezbn5UaGmspCZN",
-        tags: ["Drama", "Romantis", "Fantasi"],
+        tags: ["Drama", "Romantis"],
     },
     {
         id: 5,

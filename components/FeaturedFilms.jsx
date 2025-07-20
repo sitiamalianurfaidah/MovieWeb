@@ -17,11 +17,11 @@ const FeaturedFilms = () => {
     return (
             <section
                 id="featured"
-                className="relative min-h-screen px-6 py-16"
+                className="relative min-h-screen mt-0 px-6 py-16"
                 style={{background: "linear-gradient(to bottom, #a4929f, #e8ad9a)"}}>
             <Stars count={50} />            
             <h2
-                className="text-6xl font-bold text-center text-white mb-12 drop-shadow"
+                className="text-7xl font-bold mt-10 text-center text-white mb-12 text-shadow"
                 style={{ fontFamily: "'Playfair Display', serif" }}
             >
                 Featured Films

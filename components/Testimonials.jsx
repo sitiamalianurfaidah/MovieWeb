@@ -32,32 +32,17 @@ const testimonials = [
         rating: 5,
         comment: "Bikin nostalgia, tapi tampilannya modern. Keren banget idenya!",
     },
-    {
-        name: "Citra",
-        rating: 4,
-        comment: "Animasi & efeknya lembut banget, sesuai mood senja 🌆",
-    },
-    {
-        name: "Yoga",
-        rating: 5,
-        comment: "Gue sampe main berulang-ulang, nggak bosen. Nice job!",
-    },
-    {
-        name: "Amel",
-        rating: 5,
-        comment: "Warnanya cantik banget! Aesthetic dan unik 💜",
-    },
 ];
 
 const Testimonials = () => {
     return (
         <section
         id="testimonials"
-        className="relative min-h-screen py-16 px-6 bg-gradient-to-b from-[#a4929f] via-[#e8ad9a] to-[#d19484] text-white"
+        className="relative min-h-screen py-16 px-6 bg-gradient-to-b from-[#a4929f] via-[#dbc7d6] to-[#dbc7d6] text-[#522b63]"
         >
-        <Stars count={50} />  
+        <Stars count={90} />  
         <h2
-            className="text-4xl md:text-5xl font-extrabold mb-12 text-center drop-shadow"
+            className="text-6xl md:text-7xl font-extrabold mt-10 mb-12 text-center text-shadow text-white"
             style={{ fontFamily: "'Playfair Display', serif" }}
         >
             What They Say
@@ -66,7 +51,7 @@ const Testimonials = () => {
             {testimonials.map((item, index) => (
             <div
                 key={index}
-                className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 shadow-lg transition-transform hover:scale-[1.03]"
+                className="bg-white/100 backdrop-blur-lg border border-white/20 rounded-xl p-6 shadow-lg transition-transform hover:scale-[1.03]"
             >
                 <div className="flex items-center gap-1 mb-3">
                 {[...Array(item.rating)].map((_, i) => (
@@ -74,7 +59,7 @@ const Testimonials = () => {
                 ))}
                 </div>
                 <p className="italic text-sm leading-relaxed">"{item.comment}"</p>
-                <p className="mt-4 text-sm font-semibold text-purple-100">— {item.name}</p>
+                <p className="mt-4 text-sm font-semibold text-[#522b63]">— {item.name}</p>
             </div>
             ))}
         </div>

@@ -16,10 +16,10 @@ const FilteredMovieList = () => {
     return (
         <section
         id="movielist"
-        className="relative p-6 bg-gradient-to-b from-[#e8ad9a] via-[#a4929f] to-[#a4929f] text-white"
+        className="relative p-6 bg-gradient-to-b from-[#e8ad9a] via-[#d19484] to-[#a4929f] text-white"
         >
-        <Stars count={50} />  
-        <h2 className="text-5xl md:text-6xl font-extrabold mb-4 text-white drop-shadow text-center" style={{ fontFamily: "'Playfair Display', serif" }}>
+        <Stars count={150} />  
+        <h2 className="text-6xl md:text-7xl font-extrabold mt-20 mb-4 text-white text-shadow text-center" style={{ fontFamily: "'Playfair Display', serif" }}>
             Movie List
         </h2>
         <Filter
