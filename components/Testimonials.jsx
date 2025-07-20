@@ -1,4 +1,5 @@
 import { FaStar } from "react-icons/fa";
+import Stars from "./Stars";
 
 const testimonials = [
     {
@@ -52,8 +53,9 @@ const Testimonials = () => {
     return (
         <section
         id="testimonials"
-        className="min-h-screen py-16 px-6 bg-gradient-to-b from-[#a4929f] via-[#e8ad9a] to-[#d19484] text-white"
+        className="relative min-h-screen py-16 px-6 bg-gradient-to-b from-[#a4929f] via-[#e8ad9a] to-[#d19484] text-white"
         >
+        <Stars count={50} />  
         <h2
             className="text-4xl md:text-5xl font-extrabold mb-12 text-center drop-shadow"
             style={{ fontFamily: "'Playfair Display', serif" }}

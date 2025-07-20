@@ -1,5 +1,6 @@
 import movies from "@/data/movies";
 import MovieCard from "./MovieCard";
+import Stars from "./Stars";
 
 const FeaturedFilms = () => {
     const featuredTitles = [
@@ -14,13 +15,11 @@ const FeaturedFilms = () => {
     );
 
     return (
-        <section
-            id="featured"
-            className="min-h-screen px-6 py-16"
-            style={{
-                background: "linear-gradient(to bottom, #a4929f, #e8ad9a)",
-            }}
-        >
+            <section
+                id="featured"
+                className="relative min-h-screen px-6 py-16"
+                style={{background: "linear-gradient(to bottom, #a4929f, #e8ad9a)"}}>
+            <Stars count={50} />            
             <h2
                 className="text-6xl font-bold text-center text-white mb-12 drop-shadow"
                 style={{ fontFamily: "'Playfair Display', serif" }}
