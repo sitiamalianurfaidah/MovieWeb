@@ -1,6 +1,6 @@
 const Tag = ({ label }) => {
     return (
-        <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full">
+        <span className="text-xs bg-purple-600/20 text-purple-300 px-3 py-1 rounded-full border border-purple-500/30 backdrop-blur-sm shadow-sm">
         {label}
         </span>
     );
