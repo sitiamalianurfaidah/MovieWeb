@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import FeaturedFilms from "@/components/FeaturedFilms";
 import FilteredMovieList from "@/components/FilteredMovieList";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <FeaturedFilms />
       <FilteredMovieList />
+      <Testimonials />
     </main>
   );
 }
