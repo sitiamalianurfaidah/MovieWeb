@@ -1,4 +1,4 @@
-const AboutSection = () => {
+const About = () => {
     return (
         <section
         id="about"
@@ -15,16 +15,8 @@ const AboutSection = () => {
             <br />
             Producer <strong>Suryana Paramita</strong> & Director Writer <strong>Yandy Laurens</strong>
         </p>
-        <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
-                <svg viewBox="0 0 500 50" preserveAspectRatio="none" className="w-full h-16">
-                    <path
-                        d="M0,30 C150,60 350,0 500,30 L500,00 L0,0 Z"
-                        style={{ fill: "#a4929f", opacity: 0.4 }}
-                    ></path>
-                </svg>
-            </div>
         </section>
     );
 };
 
-export default AboutSection;
+export default About;

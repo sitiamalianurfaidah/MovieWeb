@@ -3,7 +3,7 @@ import { Cinzel } from "next/font/google";
 
 const cinzel = Cinzel({ subsets: ["latin"], weight: "700" });
 
-const HeroSection = () => {
+const Hero = () => {
     return (
         <section
         id="hero"
@@ -42,4 +42,4 @@ const HeroSection = () => {
     );
 };
 
-export default HeroSection;
+export default Hero;
