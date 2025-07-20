@@ -45,7 +45,7 @@ export default function Header() {
     return (
         <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/90 text-white">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-10 py-5">
-                <h1 className={`${cinzel.className} text-2xl font-bold tracking-wide`}>
+                <h1 className={`${cinzel.className} text-2xl font-bold tracking-wide text-shadow`}>
                     Cerita Films
                 </h1>
 

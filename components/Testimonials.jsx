@@ -46,13 +46,18 @@ const Testimonials = () => {
             id="testimonials"
             className="relative min-h-screen py-16 px-6 bg-gradient-to-b from-[#a4929f] via-[#dbc7d6] to-[#dbc7d6] text-[#522b63]"
         >
+            {/* Stars animation background */}
             <Stars count={90} />
+
+            {/* Section Title */}
             <h2
                 className="text-6xl md:text-7xl font-extrabold mt-10 mb-12 text-center text-shadow text-white"
                 style={{ fontFamily: "'Playfair Display', serif" }}
             >
                 What They Say
             </h2>
+
+            {/* Testimonial Cards Grid */}
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
                 {testimonials.map((item, index) => (
                     <div
@@ -66,17 +71,19 @@ const Testimonials = () => {
                             className="w-20 h-20 rounded-full object-cover absolute left-1/2 -top-10 transform -translate-x-1/2 border-4 border-white shadow-md"
                         />
 
-                        {/* Bintang */}
+                        {/* Rating */}
                         <div className="flex items-center justify-center gap-1 mb-3">
                             {[...Array(item.rating)].map((_, i) => (
                                 <FaStar key={i} className="text-yellow-400" />
                             ))}
                         </div>
 
-                        {/* Komentar */}
+                        {/* Comment */}
                         <p className="italic text-sm leading-relaxed text-center">
                             "{item.comment}"
                         </p>
+
+                        {/* Name */}
                         <p className="mt-4 text-sm font-semibold text-center text-[#522b63]">
                             — {item.name}
                         </p>

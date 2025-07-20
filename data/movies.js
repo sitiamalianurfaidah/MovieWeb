@@ -8,7 +8,7 @@ const movies = [
         description:
         "Film ini mengisahkan tentang Jonathan yang dikejutkan oleh kehadiran seorang perempuan asing di rumahnya. Pada pagi hari, Jo terbangun dan terkejut saat menemukan seorang perempuan tak dikenal tertidur di sampingnya, perempuan itu bernama Sore.",
         trailer: "https://youtu.be/HiVzpboRpR0?si=oY5XavEBDPzz6SnZ",
-        tags: ["Drama", "Romantis"],
+        tags: ["Drama", "Romance"],
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const movies = [
         description:
         "Film yang dirilis pada Januari 2025 ini merupakan salah satu film terbaik yang disutradarai oleh Yandy Laurens dengan genre drama-keluarga. Kisah mengikuti Moko, seorang arsitek muda yang tengah merintis kariernya. Setelah kehilangan kakak-kakaknya secara tiba-tiba, ia mendadak harus mengemban tanggung jawab sebagai wali bagi para keponakannya.",
         trailer: "https://youtu.be/LkUsJMFngiI?si=LZ5U4rHPWyKVL0sb",
-        tags: ["Drama", "Keluarga"],
+        tags: ["Drama", "Family"],
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const movies = [
         description:
         "Jatuh Cinta Seperti di Film-Film merupakan film yang disutradarai dan ditulis oleh Yandy Laurens yang bergenre drama-romantis. Cerita berfokus pada Bagus, seorang penulis skenario yang tanpa sengaja bertemu kembali dengan Hana, teman sekaligus cinta masa SMA-nya.",
         trailer: "https://youtu.be/F6jPobzz-ag?si=WtRbFnZArLm1GznN",
-        tags: ["Drama", "Romantis"],
+        tags: ["Drama", "Romance"],
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const movies = [
         description:
         "Yang Hilang Dalam Cinta merupakan series yang ditulis serta disutradarai oleh Yandy Laurens. Series ini memiliki 12 episode yang berkisah tentang Satria, yang harus menyaksikan kenyataan pahit saat cinta pertamanya, Dara, akan menikah dengan pria lain bernama Rendra. Namun segalanya berubah ketika Dara tiba-tiba menghilang secara misterius dan hanya Satria yang masih bisa melihat dan menyentuhnya.",
         trailer: "https://youtu.be/H2PsUxmTeKA?si=-Oezbn5UaGmspCZN",
-        tags: ["Drama", "Romantis"],
+        tags: ["Drama", "Romance"],
     },
     {
         id: 5,
@@ -74,7 +74,7 @@ const movies = [
         description:
         "Keluarga Cemara merupakan salah satu film yang disutradarai oleh Yandy Laurens yang diadaptasi dari novel dengan judul yang sama karya Arswendo Atmowiloto. Film ini menceritakan tentang perjuangan Abah yang harus kehilangan rumah dan harta bendanya akibat utang iparnya yang menumpuk.",
         trailer: "https://youtu.be/sGaeDzD_3o0?si=Y08OEHio1Z0xX0TN",
-        tags: ["Drama", "Keluarga"],
+        tags: ["Drama", "Family"],
     },
     {
         id: 8,
@@ -85,7 +85,7 @@ const movies = [
         description:
         "Mengakhiri Cinta dalam 3 Episode merupakan salah satu series yang disutradarai Yandy Laurens. Menceritakan kisah Satrio dan Ayu, pasangan yang telah menjalin hubungan cukup lama dan tengah mempersiapkan pernikahan mereka. Namun, rencana itu mendadak berubah ketika Satrio mulai meragukan perasaannya.",
         trailer: "https://youtu.be/yII5Neo61nA?si=OzyATHN5cAs5fkH4",
-        tags: ["Drama", "Fantasi"],
+        tags: ["Drama", "Fantasy"],
     },
     {
         id: 9,
@@ -96,7 +96,7 @@ const movies = [
         description:
         "Kisahnya berpusat pada Jonathan, seorang pria asal Indonesia yang menetap di Italia. Suatu hari, hidupnya berubah ketika seorang perempuan bernama Sore tiba-tiba muncul dan mengaku sebagai istrinya yang datang dari masa depan.",
         trailer: "https://youtu.be/GlfaHW02seM?si=0He13KiefU2kJABL",
-        tags: ["Drama", "Romantis"],
+        tags: ["Drama", "Romance"],
     },
     {
         id: 10,
@@ -107,7 +107,7 @@ const movies = [
         description:
         "Salah satu film terbaik yang disutradarai Yandy Laurens adalah Wan an. Film pendek yang berdurasi 20 menit ini berhasil mendapatkan penghargaan Piala Citra di Festival Film Indonesia pada tahun 2012. Cerita dalam film ini mengangkat kisah Tji dan Ing, pasangan suami istri lansia keturunan Tionghoa yang saling mencintai dan memahami secara emosional.",
         trailer: "https://youtu.be/qxZ-Ci1m8sE?si=-uhwDkivGy5XWWPQ",
-        tags: ["Drama", "Keluarga"],
+        tags: ["Drama", "Family"],
     },
 ];
 
