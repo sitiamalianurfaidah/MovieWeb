@@ -26,10 +26,10 @@ export default function Header() {
     }, []);
 
     // Jika di halaman favorites, hanya tampilkan tombol back
-    if (pathname === "/favorites") {
+    if (pathname === "/favorites" || (pathname && pathname.startsWith("/movies/"))) {
         return (
-            <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/70 text-white">
-                <div className="max-w-7xl mx-auto px-4 py-4">
+            <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-[#3b1e47]/80 text-white">
+                <div className="max-w-7xl mx-auto px-8 py-5">
                     <Link
                         href="/"
                         className="text-sm md:text-base text-white hover:text-orange-300 transition"
