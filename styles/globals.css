@@ -115,6 +115,10 @@ body {
   fill: white !important;
 }
 
+.fill-white {
+  fill: white;
+}
+
 .footer-right a:hover .footer-icon path {
   fill: #f3e5f5; /* pastel hover */
 }

@@ -40,7 +40,6 @@ function convertToEmbed(url) {
         }}
         >
         <Stars count={100} />
-
         <div className="relative z-10 max-w-6xl mx-auto flex flex-col mt-5 md:flex-row gap-10 items-start">
             {/* Poster */}
             <div className="md:w-1/3 w-full">
